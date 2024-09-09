@@ -1,4 +1,4 @@
-.top.footer{
+.top,.footer{
     background-color: #1f2937;
 }
 h1{
@@ -6,16 +6,18 @@ h1{
     color:#F9FAF8;
     font-weight: 900;
 }
-#subtext{
+#subtext,.footer{
     font-size:18px;
     color:#E5E7EB;
 }
 #logo{
     font-size:24px;
-    color:#F9FAF8
+    color:#F9FAF8;
+    
 }
 button{
     background-color: #3882F6;
+    color:white;
 }
 h2{
     font-size: 36px;
@@ -24,6 +26,9 @@ h2{
 }
 .part2{
     background-color: #E5E7EB;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 #quote{
     font-size:36px;
@@ -35,4 +40,73 @@ a{
 }
 ul{
     list-style-type: none;
+    display:flex;
+    gap:15px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+    ;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:0 100px;
+}
+.footer{
+    text-align: center;
+}
+#box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.illustrs{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+
+}
+.illustrs img{
+    border:solid lightblue;
+    border-radius: 25px;
+    height:200px;
+    width:200px;
+}
+.illustrs div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.part2 h3{
+    margin-left: auto;
+    margin-right: 200px;
+}
+.call{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    display:flex;
+    justify-content: space-around;
+    border:solid white;
+    border-top-width: 50px;
+    border-bottom-width: 50px;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    
+}
+*{
+    font-family: "Roboto";
+}
+.mini{
+    display:flex;
+    flex-direction: column;
+}
+.call button{
+    align-self: center;
+    height: 40px;
+    width:80px;
+    color:white
 }
