@@ -1,0 +1,38 @@
+.top.footer{
+    background-color: #1f2937;
+}
+h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+#subtext{
+    font-size:18px;
+    color:#E5E7EB;
+}
+#logo{
+    font-size:24px;
+    color:#F9FAF8
+}
+button{
+    background-color: #3882F6;
+}
+h2{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+.part2{
+    background-color: #E5E7EB;
+}
+#quote{
+    font-size:36px;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
